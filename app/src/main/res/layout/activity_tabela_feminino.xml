@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TabelaFemininoActivity">
+
+    <TableLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:background="#D8D1D1"
+        android:gravity="center"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="1dp">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:background="#B174C9"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text=" IMC MULHERES"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:background="#B174C9"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="Classificação"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:background="#f8a5c2"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="Abaixo de 19.1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:background="#f8a5c2"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="Abaixo do peso"
+                tools:text="Abaixo do peso" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:background="#F78FB3"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="Entre 19.1 a 25.8" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:background="#F78FB3"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="Peso Normal"
+                tools:text="Peso Normal" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:background="#f8a5c2"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text=" >25 e 27.3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:background="#f8a5c2"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="Sobrepeso"
+                tools:text="Sobrepeso" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:background="#F78FB3"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="Entre 27.3 e 32.3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:background="#F78FB3"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="Pré-Obeso"
+                tools:text="Pré-Obeso" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:background="#f8a5c2"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="> 32.3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:background="#f8a5c2"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="Obeso "
+                tools:text="Obeso " />
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
